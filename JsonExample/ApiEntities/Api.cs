@@ -8,7 +8,6 @@ namespace JsonExample.ApiEntities
 {
     public class Api
     {
-        public string Borsalar { get { return "https://www.doviz.com/api/v1/currencies/all/latest"; } }
         public string BIST_100_Bilesik { get { return "https://www.doviz.com/api/v1/indexes/XU100/latest"; } }
         public string BIST_ULUSAL_30 { get { return "https://www.doviz.com/api/v1/indexes/XU030/latest"; } }
         public string BIST_ULUSAL_50 { get { return "https://www.doviz.com/api/v1/indexes/XU050/latest"; } }
